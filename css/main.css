@@ -11,41 +11,50 @@ html {
 
 body {
   margin: 0;
+  font-size: 1.125rem;
 }
 
 header {
   display: flex;
   background-color: #e2e2e2;
   align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0;
 }
 
-header > h1 {
+header h1 {
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
-header > img {
+header img {
   padding-left: 1rem;
   order: -1;
   max-height: 50px;
+  width: 2rem;
 }
 
-header > p {
+header p {
   font-size: 1.125rem;
 }
 
 nav ul {
   display: flex;
+  font-size: 1.125rem;
   justify-content: flex-end;
   margin: auto;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 nav a {
   color: #0074d9;
+  justify-content: space-between;
+  margin-right: 1rem;
   padding-left: 1rem;
   padding-right: 0rem;
-  margin-right: 1rem;
-  list-style-type: none;
+  text-decoration: none;
 }
 
 a:hover {
