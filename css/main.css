@@ -19,4 +19,35 @@ header {
   align-items: center;
 }
 
-header > h1
+header > h1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+header > img {
+  padding-left: 1rem;
+  order: -1;
+  max-height: 50px;
+}
+
+header > p {
+  font-size: 1.125rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: auto;
+}
+
+nav a {
+  color: #0074d9;
+  padding-left: 1rem;
+  padding-right: 0rem;
+  margin-right: 1rem;
+  list-style-type: none;
+}
+
+a:hover {
+  color: #fff;
+}
